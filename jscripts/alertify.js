@@ -5,7 +5,7 @@ var formattedDate = currentDate.toLocaleString('es-ES', { weekday: 'long', year:
 function inicio() {
     var message = 'Sesión Iniciada con éxito el ' + formattedDate;
 
-    alertify.alert(message).set({onshow:null, onclose:function(){ window.location.href = 'principal/index.html'}}); 
+    alertify.alert(message).set({onshow:null, onclose:function(){ window.location.href = 'principal/inicio.html'}}); 
     
     setTimeout(function() {
         window.location.href = 'principal/index.html';
@@ -14,7 +14,7 @@ function inicio() {
 function registro() {
     var message = 'Registro con éxito el ' + formattedDate;
 
-    alertify.alert(message).set({onshow:null, onclose:function(){ window.location.href = 'principal/index.html'}}); 
+    alertify.alert(message).set({onshow:null, onclose:function(){ window.location.href = 'principal/inicio.html'}}); 
     
     setTimeout(function() {
         window.location.href = 'principal/index.html';
