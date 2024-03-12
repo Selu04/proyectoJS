@@ -8,7 +8,7 @@ function inicio() {
     alertify.alert(message).set({onshow:null, onclose:function(){ window.location.href = 'principal/inicio.html'}}); 
     
     setTimeout(function() {
-        window.location.href = 'principal/index.html';
+        window.location.href = 'principal/incio.html';
     }, 3000); 
 }
 function registro() {
@@ -17,6 +17,6 @@ function registro() {
     alertify.alert(message).set({onshow:null, onclose:function(){ window.location.href = 'principal/inicio.html'}}); 
     
     setTimeout(function() {
-        window.location.href = 'principal/index.html';
+        window.location.href = 'principal/incio.html';
     }, 3000); 
 }
