@@ -30,3 +30,14 @@ Boton de ir a un genero aleatorio en index.html, el cual de los 5 generos te man
 RJS6. Debes implementar alguna libreria para javascript (También se van a mencionar el próximo día de clase).
 
 En el alertify de inicioSesion.html y en el de registrarse.html
+
+
+
+PAGINA WEB EN GITHUB
+
+https://selu04.github.io/proyectoJS/
+
+REPOSITORIO
+
+https://github.com/Selu04/proyectoJS
+
