@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../jscripts/index.js"></script>
+    <title>NOVOSIC</title>
+</head>
+<body>
+    <div id="anuncio" class="anuncio">
+        <span class="cerrar" onclick="cerrarAnuncio()">X</span>
+        <div class="contenido-anuncio" onclick="redirectTo('https://abencar.github.io/paginaWeb/login.html')">
+            <div class="anuncio-img" style="text-align: center;">
+                <img src="../res/anuncio.jpg" alt="Descripción de la imagen">
+            </div>
+            <div class="anuncio-desc" style="text-align: center;">
+                <p>¿QUIERES ROBUX GRATIS?</p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>LOS 5 GÉNEROS DE MÚSICA MÁS ESCUCHADOS</h1>
+        <button id="randomButton" onclick="aleatorio()">Ir a un genero aleatorio</button>
+    </header>
+    <main>
+    <main>
+        <div class="container">
+            <div class="card" onclick="redirectTo('musica/reggae.html')">
+                <div class="card-content" id="reggae">
+                    <div>
+                        <img class="card-image" src="../res/imagen1.jpg" alt="Imagen 1">
+                    </div>
+                    <div>
+                        <div class="card-title" style="text-align: center;">Reggaetón</div>
+                        <div class="card-description"><p>Género de música urbana que combina ritmos de reggae, dancehall, hip hop y electrónica.<br>
+                            Daddy Yankee, Ozuna, Bad Bunny, J Balvin, Nicky Jam
+                            </p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('musica/rap.html')">
+                <div class="card-content" id="rap">
+                    <div>
+                        <img class="card-image" src="../res/imagen2.jpg" alt="Imagen 2">
+                    </div>
+                    <div>
+                        <div class="card-title" style="text-align: center;">Rap</div>
+                        <div class="card-description"><p> Género de música que se caracteriza por la métrica rítmica de las letras, usualmente rimadas.<br>
+                            Eminem, Tupac Shakur, Jay-Z, Kendrick Lamar, Nas</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('musica/pop.html')">
+                <div class="card-content" id="pop">
+                    <div>
+                        <img class="card-image" src="../res/imagen3.jpg" alt="Imagen 3">
+                    </div>
+                    <div>
+                        <div class="card-title" style="text-align: center;">Pop</div>
+                        <div class="card-description"><p>Género de música popular, caracterizado por su estructura melódica pegajosa y letras simples.<br>
+                            Michael Jackson, Madonna, Beyoncé, Justin Bieber, Taylor Swift</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" onclick="redirectTo('musica/electronica.html')">
+                <div class="card-content" id="electrónica">
+                    <div>
+                        <img class="card-image" src="../res/imagen4.jpg" alt="Imagen 4">
+                    </div>
+                    <div>
+                        <div class="card-title" style="text-align: center;">Música electrónica</div>
+                        <div class="card-description"><p> Género de música que utiliza equipos electrónicos y tecnología de producción.<br>
+                            Calvin Harris, David Guetta, Martin Garrix, The Chainsmokers, Avicii</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" onclick="redirectTo('musica/indie.html')">
+                <div class="card-content" id="indie">
+                    <div>
+                        <img class="card-image" src="../res/imagen5.jpg" alt="Imagen 5">
+                    </div>
+                    <div>
+                        <div class="card-title" style="text-align: center;">Indie</div>
+                        <div class="card-description"><p>Género de música caracterizado por la independencia artística y los sonidos experimentales.<br>
+                            Arctic Monkeys, Tame Impala, The Strokes, Florence + The Machine, Bon Iver</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

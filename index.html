@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/inicio.css">
+    <title>Página de Inicio</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Bienvenido a nuestra plataforma</h1>
+            <button onclick="redirectTo('registro')">Registrarse</button>
+            <button onclick="redirectTo('iniciar-sesion')">Iniciar Sesión</button>
+        </div>
+    </main>
+    <script>
+        function redirectTo(page) {
+            if (page === 'registro') {
+                window.location.href = 'registrarse.html';
+            } else if (page === 'iniciar-sesion') {
+                window.location.href = 'iniciarSesion.html';
+            }
+        }
+    </script>
+</body>
+</html>
